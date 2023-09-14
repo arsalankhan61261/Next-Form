@@ -1,0 +1,31 @@
+.form {
+    /* background-color: skyblue; */
+    margin-top: 30px;
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 2px solid;
+    border-color: rgb(168, 165, 165);
+    margin-left: 0px;
+    padding-top: 20px;
+}
+
+.form label {
+    font-size: 14px;
+    display: block;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+.form input {
+    outline: none;
+    width: 60%;
+    padding: 8px;
+}
+
+.form textarea {
+    outline: none;
+    width: 63%;
+    height: 100px;
+}
